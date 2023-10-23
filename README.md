@@ -343,3 +343,46 @@ nltk.download('wordnet')
 5. Modify the `query` variable to match your specific question about the properties of celestial objects mentioned in the text.
 6. Run the code.
 7. The extracted information will be printed as a list of relevant terms.
+
+```python
+import numpy as np
+from sklearn.ensemble import IsolationForest
+
+def anomaly_detection(data):
+    # Perform anomaly detection using Isolation Forest algorithm
+    clf = IsolationForest(contamination=0.05, random_state=42)
+    clf.fit(data)
+
+    # Predict anomalies in the data
+    anomalies = clf.predict(data)
+
+    # Return indices of anomalous data points
+    anomalous_indices = np.where(anomalies == -1)[0]
+
+    return anomalous_indices
+
+# Example usage
+data = np.array([[1.2, 3.4, 5.6],
+                 [2.3, 4.5, 6.7],
+                 [10.1, 12.3, 14.5],
+                 [100.2, 200.4, 300.6]])
+
+anomalous_indices = anomaly_detection(data)
+print("Anomalous indices:", anomalous_indices)
+```
+
+To apply the anomaly detection algorithm to cosmic data, follow these steps:
+
+1. Prepare your cosmic data in a structured format, such as a numpy array or a pandas DataFrame. Ensure that the data contains relevant features or properties that can be used for anomaly detection.
+
+2. Copy and paste the provided code into your Python environment.
+
+3. Modify the `data` variable to contain your cosmic data. Each row of the array should represent a data point, and each column should correspond to a feature or property.
+
+4. Adjust the `contamination` parameter in the `IsolationForest` constructor if needed. This parameter determines the expected proportion of anomalies in the data. The default value of 0.05 assumes that only 5% of the data is anomalous.
+
+5. Run the code. The algorithm will detect and return the indices of the anomalous data points in the `anomalous_indices` variable.
+
+6. Analyze the anomalous data points to identify unusual patterns or events in the cosmic data that may indicate the presence of rare celestial phenomena or unexpected behaviors.
+
+Note: The anomaly detection algorithm used in this code is the Isolation Forest algorithm. You may explore other anomaly detection algorithms depending on the specific requirements of your cosmic data analysis.
