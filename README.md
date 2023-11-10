@@ -89,7 +89,70 @@ By tackling these challenges, CosmicDataHarbinger aims to pave the way for more 
 
 # Contributor Guide 
 
+**CosmicDataHarbinger GitHub Repository Contributor Guide**
 
+Welcome to the CosmicDataHarbinger project! We appreciate your interest in contributing to the advancement of cosmic exploration. To ensure a smooth collaboration, please follow this guide:
+
+### Getting Started:
+
+1. **Fork the Repository:**
+   Start by forking the CosmicDataHarbinger repository to your GitHub account.
+
+2. **Clone the Repository:**
+   Clone the forked repository to your local machine using the `git clone` command.
+
+3. **Create a Branch:**
+   For each contribution, create a new branch with a descriptive name using `git checkout -b branch_name`.
+
+### Code Contribution Guidelines:
+
+4. **Coding Standards:**
+   Follow the established coding standards and style guide used in the project. Consistency is key.
+
+5. **Commit Messages:**
+   Write clear and concise commit messages, including a brief description of the changes made in each commit.
+
+6. **Pull Requests:**
+   When ready to submit your contribution, create a pull request from your branch to the main repository's `main` branch. Provide a detailed description of your changes.
+
+### Testing:
+
+7. **Unit Tests:**
+   Ensure that your code includes relevant unit tests. Run existing tests to validate that your changes do not introduce new issues.
+
+8. **Integration Tests:**
+   If applicable, include integration tests to verify the compatibility of your changes with the overall system.
+
+### Documentation:
+
+9. **Code Documentation:**
+   Document your code comprehensively using inline comments. Explain the purpose of functions, classes, and complex logic.
+
+10. **README Updates:**
+    If your contribution introduces new features or changes, update the README file to reflect these modifications. Provide clear instructions for installation and usage.
+
+### Collaboration and Communication:
+
+11. **Issue Tracker:**
+    Check the issue tracker for open tasks or report new issues. Discuss major changes before initiating significant pull requests.
+
+12. **Communication Channels:**
+    Join the designated communication channels, such as the project's Discord or mailing list, to engage with other contributors and maintain transparency.
+
+### Review Process:
+
+13. **Code Review:**
+    Expect constructive feedback during the code review process. Address and incorporate suggestions into your code where applicable.
+
+14. **Continuous Integration:**
+    Ensure that your code passes all automated tests and continuous integration checks.
+
+### Licensing:
+
+15. **License Agreement:**
+    Verify that your contribution aligns with the project's licensing agreements.
+
+Thank you for contributing to CosmicDataHarbinger! Your efforts play a vital role in advancing our understanding of the cosmos. If you have any questions, reach out to the project maintainers or the community for assistance. Happy coding! 
 
 # Guide 
 
@@ -476,3 +539,7 @@ To apply the anomaly detection algorithm to cosmic data, follow these steps:
 6. Analyze the anomalous data points to identify unusual patterns or events in the cosmic data that may indicate the presence of rare celestial phenomena or unexpected behaviors.
 
 Note: The anomaly detection algorithm used in this code is the Isolation Forest algorithm. You may explore other anomaly detection algorithms depending on the specific requirements of your cosmic data analysis.
+
+# Roadmap 
+
+
