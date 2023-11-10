@@ -32,6 +32,6 @@ Thank you for being an integral part of this cosmic journey.
 
 Sincerely,
 
-[KOSASIH](
+[KOSASIH](https://www.linkedin.com/in/kosasih-81b46b5a) 
 
 Creator Of CosmicDataHarbinger
