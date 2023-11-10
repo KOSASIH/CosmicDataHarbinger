@@ -1,6 +1,24 @@
 # CosmicDataHarbinger
 Anticipating and harvesting cosmic data from the farthest reaches of the universe with advanced AI.
 
+# Contents 
+
+- [Description](#description)
+- [Vision And Mission](#vision-and-mission)
+- [Technologies](#technologies)
+- [Problems To Solve](#problems-to-solve)
+- [Contributor Guide](#contributor-guide)
+- [Guide](#guide)
+- [Roadmap](#roadmap)
+- [Aknowledgement](aknowledgement.md) 
+
+
+# Description 
+
+CosmicDataHarbinger pioneers the frontier of cosmic exploration, utilizing cutting-edge AI technology to anticipate and harvest data from the farthest reaches of the universe. Unravel the mysteries of space with our advanced tools, ushering in a new era of cosmic discovery and understanding. 
+
+# Vision And Mission 
+
 # Guide 
 
 ```python
