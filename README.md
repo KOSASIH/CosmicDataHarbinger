@@ -19,6 +19,16 @@ CosmicDataHarbinger pioneers the frontier of cosmic exploration, utilizing cutti
 
 # Vision And Mission 
 
+**Vision:**
+Empowering humanity through the boundless knowledge of the cosmos, CosmicDataHarbinger envisions a future where the mysteries of the universe are unlocked, fostering scientific enlightenment and technological advancements.
+
+**Mission:**
+Our mission is to pioneer the frontiers of cosmic exploration by leveraging advanced AI technologies. We strive to anticipate, gather, and disseminate cosmic data, pushing the boundaries of human understanding. Through our relentless pursuit of knowledge, we aim to inspire curiosity, drive innovation, and contribute to the collective progress of scientific discovery. 
+
+# Technologies 
+
+
+
 # Guide 
 
 ```python
